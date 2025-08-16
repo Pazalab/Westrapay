@@ -87,7 +87,7 @@
 }
 
 .about-section{
-    height: 1000px;
+     padding: 40px 0px 100px 0px;
 }
 
 .about-intro{
@@ -101,4 +101,194 @@
 .about-intro span{
         color: var(--main-color);
         font-weight: 450;
+}
+
+.payment-solutions{
+      margin-top: 50px;
+}
+.payment-solutions-intro h3{
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-bottom: 10px;
+      font-size: 16px;
+}
+.payment-solutions-intro h2{
+      font-size: 50px;
+      width: 600px;
+}
+
+.payments-wrap-row{
+       display: grid;
+       grid-template-columns: 1.25fr 1fr;
+       gap: 50px;
+       margin-top: 40px;
+       align-items: center;
+}
+
+.payments-wrap-images{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 20px;
+       align-items: center;
+}
+
+.payments-wrap-images img{
+       border-radius: 50%;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+       flex-shrink: 0;
+}
+.payments-wrap-images img:nth-child(1){
+       width: 60%;
+       height: 400px;
+}
+.payments-wrap-images img:nth-child(2){
+       width: 35%;
+       height: 250px;
+       transform: translateY(30px);
+       -webkit-transform: translateY(30px);
+       -moz-transform: translateY(30px);
+       -ms-transform: translateY(30px);
+       -o-transform: translateY(30px);
+}
+.payments-wrap-images img:nth-child(3){
+      height: 200px;
+      width: 200px;
+      transform: translate(90px, -60px);
+      -webkit-transform: translate(90px, -60px);
+      -moz-transform: translate(90px, -60px);
+      -ms-transform: translate(90px, -60px);
+      -o-transform: translate(90px, -60px);
+}
+
+.payments-wrap-texts h3{
+       font-size: 50px;
+       font-weight: 600;
+       margin-bottom: 10px;
+}
+.payments-wrap-texts p,
+.payment-solution-item p{
+      font-size: 20px;
+      color: rgb(64, 64, 64);
+      line-height: 1.7;
+      font-weight: 320;
+}
+.payments-wrap-texts ul,
+.payment-solution-item ul{
+      margin: 10px auto;
+      width: 95%;
+}
+.payments-wrap-texts ul li,
+.payment-solution-item ul li{
+      margin-bottom: 15px;
+      display: flex;
+      gap: 5px;
+      line-height: 1.5;
+      font-weight: 320;
+      font-size: 18px;
+      color: rgb(64, 64, 64);
+}
+.payments-wrap-texts ul li span,
+.payment-solution-item ul li span{
+      display: flex;
+      margin-top: 4px;
+      color: var(--main-color);
+}
+
+.payments-wrap-texts a{
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      margin: 20px 0;
+      font-weight: 500;
+      color: var(--main-color);
+}
+
+.payments-wrap-texts a span{
+      display: flex;
+      margin-top: 3px;
+}
+
+.payments-solutions-grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 30px;
+}
+
+.payment-solution-item{
+      background: white;
+      border-radius: 16px;
+      -webkit-border-radius: 16px;
+      -moz-border-radius: 16px;
+      -ms-border-radius: 16px;
+      -o-border-radius: 16px;
+      padding: 35px;
+}
+.payment-solution-item h3{
+       font-size: 28px;
+       font-weight: 600;
+       margin-bottom: 10px;
+}
+.payment-solution-item:nth-child(1) ul{
+      margin-bottom: 25px;
+}
+.payment-solution-item img{
+      margin-bottom: 15px;
+      height: 250px;
+      border-radius: 16px;
+      -webkit-border-radius: 16px;
+      -moz-border-radius: 16px;
+      -ms-border-radius: 16px;
+      -o-border-radius: 16px;
+}
+
+
+.features-section{
+      background: white;
+      padding: 100px 0;
+}
+
+.features-intro h3{
+       text-transform: uppercase;
+       font-weight: 400;
+       margin-bottom: 10px;
+       font-size: 16px;
+}
+
+.features-intro h2{
+      font-size: 50px;
+      font-weight: 600;
+      margin-bottom: 10px;
+}
+.features-intro p{
+       font-size: 20px;
+       margin-bottom: 20px;
+       font-weight: 330;
+}
+.features-section-row{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 50px;
+}
+
+.feature-moja img{
+       width: 50px;
+       height: 50px;
+       filter: invert(43%) sepia(48%) saturate(2454%) hue-rotate(177deg) brightness(103%) contrast(103%);
+}
+
+.feature-moja h3{
+      font-size: 22px;
+      font-weight: 500;
+      margin: 10px 0;
+}
+.feature-moja p{
+      font-size: 17px;
+      font-weight: 300;
+      color: rgb(64, 64, 64);
+      line-height: 1.5;
 }

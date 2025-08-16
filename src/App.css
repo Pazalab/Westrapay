@@ -6,9 +6,10 @@
 }
 
 :root{
-    --main-color: rgb(111, 1, 237);
+    --main-color: rgb(0, 162, 255);
     --regular-font: "Outfit", sans-serif;
     --logo-font: "Harmattan", sans-serif;
+    --: #00a2ff;
 }
 
 body{
